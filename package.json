@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node ",
-    "build": "babel --out-dir build",
-    "start": "node src/build/index.js"
+    "build": "babel src/ --out-dir build",
+    "start": "node build/index.js"
   },
   "author": "\"NNGR01\"",
   "license": "ISC",

@@ -7,4 +7,4 @@ mongoose.connect(database, {
     useInifiedTopology : true
 })
     .then(data => console.log('DB is connect'))
-    .catch( err => console.log(err));
+    .catch( err => console.log(err ));

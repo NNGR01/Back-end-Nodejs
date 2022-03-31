@@ -1,5 +1,5 @@
 
-let add = (req,res,next) => {
+let add = (req, res, next) => {
     try {
         
     } catch (e){
